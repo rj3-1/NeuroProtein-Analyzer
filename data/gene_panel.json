@@ -1,0 +1,16 @@
+{
+  "disease": {
+    "APP": "",
+    "MAPT": "",
+    "SNCA": "",
+    "HTT": "",
+    "TARDBP": ""
+  },
+  "control": {
+    "GAPDH": "",
+    "ACTB": "",
+    "HPRT1": "",
+    "RPLP0": "",
+    "TUBA1B": ""
+  }
+}
