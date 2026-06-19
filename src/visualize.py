@@ -120,7 +120,7 @@ def plot_amino_acid_heatmap(df):
         annot=False
     )
 
-    mpl.title("Normalaized Amino Acid Composition Heatmap")
+    mpl.title("Normalized Amino Acid Composition Heatmap")
     mpl.xlabel("Amino Acid")
     mpl.ylabel("Protein")
 

@@ -116,9 +116,9 @@ Normalized amino acid frequencies reveal differences in sequence composition acr
 
 For the selected protein panel:
 
-* Disease-associated proteins exhibited higher average instability indices than controls.
-* Disease-associated proteins showed lower average GRAVY scores, indicating greater hydrophilicity.
-* Disease proteins were substantially larger on average than the selected control proteins.
+* Disease proteins exhibited higher average instability indices than controls.
+* Disease proteins showed lower average GRAVY scores, indicating greater hydrophilicity.
+* Disease proteins exhibited a higher average protein length than the control panel; however, this difference was driven largely by HTT, an extreme outlier with a length of over 3000 amino acids.
 * Amino acid composition varied considerably across proteins.
 
 These findings are exploratory and based on a small curated dataset.
