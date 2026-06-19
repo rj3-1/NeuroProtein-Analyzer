@@ -104,13 +104,13 @@ The pipeline generates:
 
 The correlation matrix highlights relationships between sequence-derived protein properties, including protein length, molecular weight, hydrophobicity, instability and predicted secondary structure composition.
 
-![Correlation Matrix](results/figures/correlation_matrix.png)
+![Correlation Matrix](./results/figures/correlation_matrix.png)
 
 ### Amino Acid Composition Heatmap
 
 Normalized amino acid frequencies reveal differences in sequence composition across disease and control proteins independent of protein length.
 
-![Amino Acid Heatmap](results/figures/amino_acid_heatmap.png)
+![Amino Acid Heatmap](./results/figures/normalized_aa_heatmap.png)
 
 ### Key Observations
 
