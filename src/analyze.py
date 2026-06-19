@@ -22,7 +22,22 @@ def analyse_sequences(gene_seq, gene_type):
     
     return protein_details
 
-def save_protein_details(prot_det,output_file):
-    df = pd.DataFrame.from_dict(prot_det, orient="index")
-    df.index.name = "gene"
-    df.to_csv(output_file)
+def summarize(df):
+    summary_stats = (
+    df.groupby("group")[
+        [
+            "protein_length",
+            "molecular_weight",
+            "isoelectric_point",
+            "aromaticity",
+            "instability_index",
+            "gravy",
+            "alpha_structure_fraction",
+            "turn_structure_fraction",
+            "beta_structure_fraction"
+        ]
+    ]
+    .mean()
+    )
+    
+    return summary_stats
